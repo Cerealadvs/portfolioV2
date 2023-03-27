@@ -1,15 +1,13 @@
 import React from 'react'
-import Intro from '../components/Intro'
 import Footer from '../components/Footer'
 
-const Home = () => {
+function Cv() {
   return (
     <div>
-      <Intro />
-
       <Footer />
+      Cv
     </div>
   )
 }
 
-export default Home
+export default Cv

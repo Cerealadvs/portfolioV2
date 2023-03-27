@@ -1,15 +1,13 @@
 import React from 'react'
-import Intro from '../components/Intro'
 import Footer from '../components/Footer'
 
-const Home = () => {
+function Skills() {
   return (
     <div>
-      <Intro />
-
       <Footer />
+      Skills
     </div>
   )
 }
 
-export default Home
+export default Skills

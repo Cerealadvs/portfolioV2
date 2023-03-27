@@ -1,9 +1,10 @@
 import React from 'react'
 import Title from '../components/Title'
+import Footer from '../components/Footer'
 
 const Contact = () => {
   return (
-    <div className='flex flex-col mb-10 mx-auto  mt-10'>
+    <div className='flex flex-col mb-10 mx-auto mt-16'>
       <div className='flex justify-center items-center'>
         <form
           action='https://getform.io/f/(customSlugHere)'
@@ -35,6 +36,7 @@ const Contact = () => {
           </button>
         </form>
       </div>
+      <Footer />
     </div>
   )
 }

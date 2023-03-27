@@ -1,12 +1,13 @@
 import React from 'react'
 import { Routes, Route } from 'react-router-dom'
 
-// import Navbar from './components/Navbar'
 import Navbar from './components/Navbar'
 import Home from './pages/Home'
-import About from './pages/About'
+import Projets from './pages/Projets'
 import Contact from './pages/Contact'
 import Timeline from './components/Timeline'
+import Cv from './pages/Cv'
+import Skills from './pages/Skills'
 
 const App = () => {
   return (
@@ -15,8 +16,10 @@ const App = () => {
       <Navbar />
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/about' element={<About />} />
+        <Route path='/projects' element={<Projets />} />
+        <Route path='/skills' element={<Skills />} />
         <Route path='/timeline' element={<Timeline />} />
+        <Route path='/cv' element={<Cv />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/*' element={<Home />} />
       </Routes>
