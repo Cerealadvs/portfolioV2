@@ -1,13 +1,14 @@
 import React from 'react'
-import Intro from '../components/Intro'
+import IntroHome from '../components/IntroHome'
 import Footer from '../components/Footer'
+import Pipou from '../components/Pipou'
 
 const Home = () => {
   return (
     <div>
-      <Intro />
-
+      <IntroHome />
       <Footer />
+      <Pipou />
     </div>
   )
 }

@@ -20,7 +20,7 @@ export default [
   {
     title: 'Kanap',
     imgUrl: 'assets/kanap.jpg',
-    stack: ['API', 'JavaScript', 'HTML', 'CSS'],
+    stack: ['API', 'HTML', 'CSS', 'JavaScript'],
     link: 'https://github.com/Cerealadvs/Kanap'
   },
   {

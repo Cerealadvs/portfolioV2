@@ -5,7 +5,7 @@ import Portfolio from '../components/Portfolio'
 
 function Projets() {
   return (
-    <div className='mt-16'>
+    <div>
       {/* margin et padding */}
       <IntroProjets />
       <Portfolio />
