@@ -1,5 +1,6 @@
 import React from 'react'
 import { TypeAnimation } from 'react-type-animation'
+import knife from '/assets/knife-round.png'
 
 const Intro = () => {
   return (
@@ -29,6 +30,11 @@ const Intro = () => {
         <span className='text-teal-500'>web</span>, je cherche une première
         <span className='text-teal-500'> expérience</span> dans le développement.
       </p>
+
+      <img src={knife} alt='Logo' />
+      {/* className='sm:w-10/12 TODO:'taille en patit trop proche des bords */}
+
+      {/* TODO: idée: créer des liens sur les différents outils (ouverture de menu en liens)f */}
     </div>
   )
 }

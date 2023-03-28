@@ -50,6 +50,12 @@ function Nav() {
                     className=' text-gray-300 hover:bg-gray-700 hover:text-white text-xl  px-3 py-2 rounded-md'>
                     GitHub
                   </Link>
+                  <Link
+                    to='https://fr.linkedin.com/in/cyril-delteil-5542426b'
+                    target='_blank'
+                    className=' text-gray-300 hover:bg-gray-700 hover:text-white text-xl  px-3 py-2 rounded-md'>
+                    LinkedIn
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -143,6 +149,12 @@ function Nav() {
                   target='_blank'
                   className='text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium'>
                   GitHub
+                </Link>
+                <Link
+                  to='https://fr.linkedin.com/in/cyril-delteil-5542426b'
+                  target='_blank'
+                  className='text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium'>
+                  LinkedIn
                 </Link>
               </div>
             </div>

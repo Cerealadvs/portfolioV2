@@ -1,20 +1,56 @@
 export default [
   {
-    title: 'booki',
+    title: 'Booki',
     imgUrl: 'assets/booki.jpg',
-    stack: ['HTML', 'CSS', 'JavaScript'],
-    link: ''
+    stack: ['HTML', 'CSS'],
+    link: 'https://cerealadvs.github.io/Booki/'
   },
   {
-    title: 'Canap',
-    imgUrl: 'assets/kanap.jpg',
-    stack: ['React', 'Tailwind', 'Vite'],
-    link: ''
+    title: 'Oh My Food',
+    imgUrl: 'assets/ohmyfood.jpg',
+    stack: ['HTML', 'CSS', 'SASS'],
+    link: 'https://cerealadvs.github.io/OhMyFood/index.html'
   },
   {
-    title: 'La panthère',
+    title: 'La Panthère',
     imgUrl: 'assets/lapanthere.jpg',
-    stack: ['HTML', 'SASS', 'Accessibilité'],
-    link: ''
+    stack: ['SEO', 'SASS', 'HTML', 'CSS'],
+    link: 'https://cerealadvs.github.io/LaPanthere/'
+  },
+  {
+    title: 'Kanap',
+    imgUrl: 'assets/kanap.jpg',
+    stack: ['API', 'JavaScript', 'HTML', 'CSS'],
+    link: 'https://github.com/Cerealadvs/Kanap'
+  },
+  {
+    title: 'Hot Takes',
+    imgUrl: 'assets/hottakes.jpg',
+    stack: ['MongoDB', 'Express', 'Angular', 'NodeJs', 'API'],
+    link: 'https://github.com/Cerealadvs/Piiquante'
+  },
+  {
+    title: 'Groupomania',
+    imgUrl: 'assets/groupomania.jpg',
+    stack: ['MongoDB', 'Express', 'React', 'NodeJs', 'API'],
+    link: 'https://github.com/Cerealadvs/Groupomania'
+  },
+  {
+    title: 'PortfolioV1',
+    imgUrl: 'assets/portfolioV1.jpg',
+    stack: ['React', 'Tailwind', 'Create React App'],
+    link: 'https://github.com/Cerealadvs/portofolio'
+  },
+  {
+    title: 'Snake',
+    imgUrl: 'assets/snake.jpg',
+    stack: ['HTML', 'CSS', 'JavaScript'],
+    link: 'https://cerealadvs.github.io/snake/'
+  },
+  {
+    title: 'Pokemon Match Card',
+    imgUrl: 'assets/pokemon.jpg',
+    stack: ['HTML', 'CSS', 'JavaScript'],
+    link: 'https://cerealadvs.github.io/pokemon-card-match/'
   }
 ]
