@@ -39,11 +39,17 @@ function Nav() {
                     CV
                   </Link>
 
-                  <Link
+                  <button
+                    onClick={() => (window.location = 'mailto:cyrildelteil@gmail.com')}
+                    className=' text-gray-300 hover:bg-gray-700 hover:text-white text-xl px-3 py-2 rounded-md'>
+                    Contact
+                  </button>
+
+                  {/* <Link
                     to='/contact'
                     className=' text-gray-300 hover:bg-gray-700 hover:text-white text-xl  px-3 py-2 rounded-md'>
                     Contact
-                  </Link>
+                  </Link> */}
                   <Link
                     to='https://github.com/Cerealadvs'
                     target='_blank'

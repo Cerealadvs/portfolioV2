@@ -1,37 +1,60 @@
 export default [
   {
     year: 'En ce moment',
-    title: 'Developement web',
+    title: 'Développeur web',
     duration: '2 ans',
     details:
-      'My humble attempt at building my version of the digital world one step at a time by documenting my coding journey and creating software engineering and computer science content to help those coming behind me.'
+      "Actuellement en train d'effectuer différents projets pour aprofondir mes conaissances en développement et ce qui est lié aux technologies du web HTML, CSS, JavaScript, Tailwind, Frameworks, React, Express, Base de données, Mongo DB, etc.. "
   },
   {
-    year: 'Today',
-    title: 'Solo Indie Developer',
-    duration: '4 years',
-    details:
-      "I'm a solo indie developer building software for myself and clients to showcase on YouTube. All coding projects are built from the ground up, from planning and designing all the way to solving real-life problems with code."
+    year: '2022',
+    title: 'OpenClassrooms',
+    duration: '1 an',
+    details: 'Suivi et validation de la fromation développeur web sur OpenClassrooms'
+  },
+
+  {
+    year: '2022',
+    title: 'Groupomania',
+    duration: '50h',
+    details: "Créez un réseau social d'entrprise avec React"
   },
   {
-    year: '2019',
-    title: 'Software Engineer',
-    duration: '2 years',
-    details:
-      'I helped build an enterprise application for a Fortune 500 company in an Agile team setting. Our tech stack consisted of TypeSciprt, Angular, Java, Gradle, and a handful of other languages and tools.'
+    year: '2022',
+    title: 'Pííquantes',
+    duration: '50h',
+    details: "Construiser une API sécurisé pour  une application d'avis gastronomiques"
   },
   {
-    year: '2018',
-    title: "Bachelor's Degree in Computer Science",
-    duration: '5 years',
-    details:
-      'I pursued the knowledge that a computer science degree had to offer. I learned about computer architecture, computer science theory, an array of programming, and aspects of artificial intelligence.'
+    year: '2022',
+    title: 'OpenClassrooms',
+    duration: '90h',
+    details: 'Construiser un site e-commerce en JavaScript'
   },
   {
-    year: '2013',
-    title: 'First Line of Code',
-    duration: 'the beginning',
+    year: '2022',
+    title: 'OpenClassrooms',
+    duration: '30h',
+    details: 'Optimiser un site existant'
+  },
+  {
+    year: '2022',
+    title: 'OpenClassrooms',
+    duration: '70h',
+    details: 'Dynamiser une page web avec des anmation CSS'
+  },
+  {
+    year: '2022',
+    title: 'OpenClassrooms',
+    duration: '90h',
+    details: 'Transformez une maquette en site web avec HTML & CSS'
+  },
+
+  {
+    year: '2020',
+    title: 'Première ligne de code',
+    duration: 'le commencement',
     details:
-      "I wrote my first line of real code that started this journey into digital craftsmanship that I never could've imagined, especially as someone who never saw themselves as anything other than a blue collar worker."
+      "Durant la pandémie de COVID-19 je me suis amusé sur une application téléphone MIMO, j'ai commencer à coder et voir si cela me plaisait, Quelques mois plus tard je validait la certification me deonnant envie de continuer dans un vrai environnement de développement "
   }
 ]
