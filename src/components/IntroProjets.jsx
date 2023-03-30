@@ -22,8 +22,7 @@ function IntroProjets() {
         et voir ceux sur lesquels je travaille en ce moment.
       </p>
       <p className='text-md py-5 leading-8 text-slate-800 dark:text-slate-500 md:text-xl max-w-xl mx-auto'>
-        Que ce soit du front ou du back, je me concentre principalement sur les technologies du web
-        actuellement.
+        Que ce soit du front ou du back, je me concentre principalement sur les technologies du web.
       </p>
     </div>
   )

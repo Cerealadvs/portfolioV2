@@ -6,7 +6,6 @@ import Portfolio from '../components/Portfolio'
 function Projets() {
   return (
     <div>
-      {/* margin et padding */}
       <IntroProjets />
       <Portfolio />
       <Footer />

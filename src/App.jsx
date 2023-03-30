@@ -5,14 +5,13 @@ import Navbar from './components/Navbar'
 import Home from './pages/Home'
 import Projets from './pages/Projets'
 import Contact from './pages/Contact'
-import Timeline from './components/Timeline'
+import Timeline from './pages/Timeline'
 import Cv from './pages/Cv'
 import Skills from './pages/Skills'
 
 const App = () => {
   return (
     <div className='bg-slate-300'>
-      {/* TODO:  Test background en couleur bg-gradient-to-b from-orange-300 to-blue-500*/}
       <Navbar />
       <Routes>
         <Route path='/' element={<Home />} />
