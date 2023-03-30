@@ -26,7 +26,7 @@ function Competences() {
         Mes Compétences
       </h1>
       <p className='text-md py-5 leading-8 text-slate-800 dark:text-slate-500 md:text-xl max-w-xl mx-auto'>
-        Au travers ces projets j'ai pu travailler avec différentes technologies :
+        Á travers ces projets, j'ai pu travailler avec différentes technologies :
       </p>
 
       <div className=' m-10 lg:flex gap-10 shadow-lg p-10 rounded-xl my-2 dark: shadow-slate-600'>

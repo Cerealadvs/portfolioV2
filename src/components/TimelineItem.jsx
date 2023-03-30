@@ -13,7 +13,7 @@ const TimelineItem = () => {
           <div className='my-1 text-sm font-normal leading-none text-stone-400 dark:text-stone-500'>~</div>
         </p>
         <p className='my-2 mx-16 text-left font-normal text-stone-500 dark:text-stone-400'>
-          Actuellement en train d'effectuer différents projets pour aprofondir mes conaissances en
+          Actuellement en train d'effectuer différents projets pour approfondir mes connaissances en
           développement et tout ce qui est lié aux technologies du web: <br />
           HTML, CSS, JavaScript, Tailwind, Frameworks, React, Express, Base de données, Mongo DB, etc..
         </p>
@@ -24,10 +24,10 @@ const TimelineItem = () => {
             2023
           </span>
           <h3 className='text-lg font-semibold text-stone-900 dark:text-white'>Portfolio</h3>
-          <div className='my-1 text-sm font-normal leading-none text-stone-400 dark:text-stone-500'>~</div>
+          <div className='my-1 text-sm font-normal leading-none text-stone-400 dark:text-stone-500'>20h</div>
         </p>
         <p className='my-2 mx-16 text-left font-normal text-stone-500 dark:text-stone-400'>
-          Réallisation de ce portfolio avec React, Tailwind, Vite
+          Réalisation de ce portfolio avec React, Tailwind, Vite
         </p>
         <div className='absolute w-3 h-3 bg-stone-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-stone-900 dark:bg-stone-700' />
         <p className='flex flex-wrap gap-4 flex-row items-center justify-start text-xs md:text-sm'>
@@ -35,7 +35,7 @@ const TimelineItem = () => {
             2023
           </span>
           <h3 className='text-lg font-semibold text-stone-900 dark:text-white'>Pokémon Match Card</h3>
-          <div className='my-1 text-sm font-normal leading-none text-stone-400 dark:text-stone-500'>~</div>
+          <div className='my-1 text-sm font-normal leading-none text-stone-400 dark:text-stone-500'>5h</div>
         </p>
         <p className='my-2 mx-16 text-left font-normal text-stone-500 dark:text-stone-400'>
           Petit jeu de mémory fait sur la base de pokémon et de cartes à trouver. <br />
@@ -47,7 +47,7 @@ const TimelineItem = () => {
             2023
           </span>
           <h3 className='text-lg font-semibold text-stone-900 dark:text-white'>Snake</h3>
-          <div className='my-1 text-sm font-normal leading-none text-stone-400 dark:text-stone-500'>1 an</div>
+          <div className='my-1 text-sm font-normal leading-none text-stone-400 dark:text-stone-500'>5h</div>
         </p>
         <p className='my-2 mx-16 text-left font-normal text-stone-500 dark:text-stone-400'>
           Création d'un petit jeu snake,
@@ -77,11 +77,13 @@ const TimelineItem = () => {
           <div className='my-1 text-sm font-normal leading-none text-stone-400 dark:text-stone-500'>50h</div>
         </p>
         <p className='my-2 mx-16 text-left font-normal text-stone-500 dark:text-stone-400'>
-          Créez un réseau social d'entrprise avec React,
+          Créer un réseau social d'entreprise avec React,
+          <br />
+          Objectifs:
           <br />
           Authentifier un utilisateur et maintenir sa session,
           <br />
-          Implémenter un stockage de données sécurisé en utilisant une base de données,
+          Implémenter un stockage de données sécurisées en utilisant une base de données,
           <br />
           Développer l'interface d'un site web grâce à un framework front-end
         </p>
@@ -95,7 +97,9 @@ const TimelineItem = () => {
           <div className='my-1 text-sm font-normal leading-none text-stone-400 dark:text-stone-500'>50h</div>
         </p>
         <p className='my-2 mx-16 text-left font-normal text-stone-500 dark:text-stone-400'>
-          Construiser une API sécurisé pour une application d'avis gastronomiques,
+          Construire une API sécurisée pour une application d'avis gastronomiques,
+          <br />
+          Objectifs:
           <br />
           Mettre en œuvre des opérations CRUD de manière sécurisée,
           <br />
@@ -113,7 +117,9 @@ const TimelineItem = () => {
           <div className='my-1 text-sm font-normal leading-none text-stone-400 dark:text-stone-500'>90h</div>
         </p>
         <p className='my-2 mx-16 text-left font-normal text-stone-500 dark:text-stone-400'>
-          Construiser un site e-commerce en JavaScript,
+          Construire un site e-commerce en JavaScript,
+          <br />
+          Objectifs:
           <br />
           Créer un plan de test pour une application,
           <br />
@@ -133,7 +139,9 @@ const TimelineItem = () => {
           <div className='my-1 text-sm font-normal leading-none text-stone-400 dark:text-stone-500'>30h</div>
         </p>
         <p className='my-2 mx-16 text-left font-normal text-stone-500 dark:text-stone-400'>
-          Optimiser un site existantAssurer l'accessibilité d'un site,
+          Optimiser un site existant et assurer l'accessibilité d'un site,
+          <br />
+          Objectifs:
           <br />
           Réaliser une recherche des bonnes pratiques en développement web,
           <br />
@@ -153,7 +161,9 @@ const TimelineItem = () => {
           <div className='my-1 text-sm font-normal leading-none text-stone-400 dark:text-stone-500'>70h</div>
         </p>
         <p className='my-2 mx-16 text-left font-normal text-stone-500 dark:text-stone-400'>
-          Dynamiser une page web avec des anmation CSS
+          Dynamiser une page web avec des animations CSS
+          <br />
+          Objectifs:
           <br />
           Mettre en œuvre des effets CSS graphiques avancés,
           <br />
@@ -208,8 +218,8 @@ const TimelineItem = () => {
           </div>
         </p>
         <p className='my-2 mx-16 text-left font-normal text-stone-500 dark:text-stone-400'>
-          Durant la pandémie de COVID-19 je me suis amusé sur une application téléphone MIMO, j'ai commencer à
-          coder et voir si cela me plaisait, Quelques mois plus tard je validait la certification me donnant
+          Durant la pandémie de COVID-19 je me suis amusé sur une application téléphone MIMO, j'ai commencé à
+          coder et voir si cela me plaisait. Quelques mois plus tard je validais la certification me donnant
           envie de continuer sur un vrai environnement de développement
         </p>
       </div>
