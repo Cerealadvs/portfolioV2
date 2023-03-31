@@ -18,7 +18,7 @@ const Intro = () => {
           style={{ fontSize: '1em', paddingLeft: '5px' }}
         />
       </h2>
-      {/* TODO: On garde ? */}
+
       <p className='text-md py-5 leading-8 text-slate-800 dark:text-slate-500 md:text-xl max-w-xl mx-auto'>
         Actuellement à la recherche d'une expérience professionnelle dans le développement web.
       </p>

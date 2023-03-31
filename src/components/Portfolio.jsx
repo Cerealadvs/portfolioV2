@@ -1,6 +1,7 @@
 import React from 'react'
 import portfolio from '../data/portfolio'
 import PortfolioItem from './PortfolioItem'
+import knife from '/assets/knife-round.png'
 
 const Portfolio = () => {
   return (
@@ -15,6 +16,7 @@ const Portfolio = () => {
           />
         ))}
         <img className='h-8 w-8' src='assets/knife-round.png' alt='Logo' />
+        <img src={knife} alt='Logo' className='h-8 w-8' />
       </div>
     </div>
   )

@@ -1,31 +1,31 @@
 export default [
   {
     title: 'Booki',
-    imgUrl: '../public/assets/booki.jpg',
+    imgUrl: '/assets/booki.jpg',
     stack: ['HTML', 'CSS'],
     link: 'https://cerealadvs.github.io/Booki/'
   },
   {
     title: 'Oh My Food',
-    imgUrl: './public/assets/ohmyfood.jpg',
+    imgUrl: '/assets/ohmyfood.jpg',
     stack: ['HTML', 'CSS', 'SASS'],
     link: 'https://cerealadvs.github.io/OhMyFood/index.html'
   },
   {
     title: 'La Panthère',
-    imgUrl: './assets/lapanthere.jpg',
+    imgUrl: '/assets/lapanthere.jpg',
     stack: ['SEO', 'SASS', 'HTML', 'CSS'],
     link: 'https://cerealadvs.github.io/LaPanthere/'
   },
   {
     title: 'Kanap',
-    imgUrl: 'assets/kanap.jpg',
+    imgUrl: '/assets/kanap.jpg',
     stack: ['API', 'HTML', 'CSS', 'JavaScript'],
     link: 'https://github.com/Cerealadvs/Kanap'
   },
   {
     title: 'Hot Takes',
-    imgUrl: '/public/assets/hottakes.jpg',
+    imgUrl: '/assets/hottakes.jpg',
     stack: ['MongoDB', 'Express', 'Angular', 'NodeJs', 'API'],
     link: 'https://github.com/Cerealadvs/Piiquante'
   },
@@ -43,13 +43,13 @@ export default [
   },
   {
     title: 'Snake',
-    imgUrl: '/portfolioV2/public/assets/snake.jpg',
+    imgUrl: '/assets/snake.jpg',
     stack: ['HTML', 'CSS', 'JavaScript'],
     link: 'https://cerealadvs.github.io/snake/'
   },
   {
     title: 'Pokemon Match Card',
-    imgUrl: './portfolioV2/public/assets/pokemon.jpg',
+    imgUrl: '/assets/pokemon.jpg',
     stack: ['HTML', 'CSS', 'JavaScript'],
     link: 'https://cerealadvs.github.io/pokemon-card-match/'
   }
