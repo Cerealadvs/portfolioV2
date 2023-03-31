@@ -9,7 +9,6 @@ function Projets() {
       <IntroProjets />
       <Portfolio />
       <Footer />
-      Projets ici ?
     </div>
   )
 }

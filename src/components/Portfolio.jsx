@@ -14,6 +14,7 @@ const Portfolio = () => {
             link={project.link}
           />
         ))}
+        <img className='h-8 w-8' src='assets/knife-round.png' alt='Logo' />
       </div>
     </div>
   )
