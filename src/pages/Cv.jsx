@@ -11,7 +11,6 @@ function Cv() {
         <img src={CV} alt='CV' className='' />
       </div>
       <Footer />
-      Cv
     </div>
   )
 }
