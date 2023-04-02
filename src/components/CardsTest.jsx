@@ -263,8 +263,9 @@ function CardsTest() {
               <br />
               Implémenter une interface responsive
             </p>
+
             <a
-              class='rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'
+              class='rounded-full hover:bg-orange-600 bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'
               href='https://cerealadvs.github.io/Booki/'>
               GitHub
             </a>

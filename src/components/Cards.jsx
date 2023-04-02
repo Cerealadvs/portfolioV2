@@ -19,7 +19,7 @@ function Cards() {
             <img
               class='h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125'
               src={pokemon}
-              alt='booki'
+              alt='pokemon'
             />
           </div>
           <div class='absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70'></div>
@@ -34,20 +34,20 @@ function Cards() {
             </p>
 
             <div className='flex'>
-              <a
-                class='rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'
-                href='https://cerealadvs.github.io/pokemon-card-match/'>
-                GitHub
-              </a>
               <p className='rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'>
-                HTML
+                HTML5
               </p>
               <p className='rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'>
-                CSS
+                CSS3
               </p>
               <p className='rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'>
                 JavaScript
               </p>
+              <a
+                class='rounded-full hover:bg-orange-600 bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'
+                href='https://cerealadvs.github.io/pokemon-card-match/'>
+                GitHub
+              </a>
             </div>
           </div>
         </div>
@@ -69,11 +69,22 @@ function Cards() {
               <br />
               Évent Javascript
             </p>
-            <a
-              class='rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'
-              href='https://cerealadvs.github.io/snake/'>
-              GitHub
-            </a>
+            <div className='flex'>
+              <p className='rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'>
+                HTML5
+              </p>
+              <p className='rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'>
+                CSS3
+              </p>
+              <p className='rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'>
+                JavaScript
+              </p>
+              <a
+                class='rounded-full hover:bg-orange-600 bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'
+                href='https://cerealadvs.github.io/snake/'>
+                GitHub
+              </a>
+            </div>
           </div>
         </div>
         <div class='group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30'>
@@ -93,11 +104,22 @@ function Cards() {
               Réalisation de mon premier portfolio, gestin du thème sombre et clair seont les préférences
               utlisateur.
             </p>
-            <a
-              class='rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'
-              href='https://github.com/Cerealadvs/portofolio'>
-              GitHub
-            </a>
+            <div className='flex'>
+              <p className='rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'>
+                React
+              </p>
+              <p className='rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'>
+                Tailwind
+              </p>
+              <p className='rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'>
+                Create React App
+              </p>
+              <a
+                class='rounded-full hover:bg-orange-600 bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'
+                href='https://github.com/Cerealadvs/portofolio'>
+                GitHub
+              </a>
+            </div>
           </div>
         </div>
         <div class='group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30'>
@@ -120,11 +142,28 @@ function Cards() {
               <br />
               Développer l'interface d'un site web grâce à un framework front-end
             </p>
-            <a
-              class='rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'
-              href='https://github.com/Cerealadvs/Groupomania'>
-              GitHub
-            </a>
+            <div className='flex'>
+              <p className='rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'>
+                React
+              </p>
+              <p className='rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'>
+                Node.Js
+              </p>
+              <p className='rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'>
+                Express
+              </p>
+              <p className='rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'>
+                MongoDB
+              </p>
+              <p className='rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'>
+                API
+              </p>
+              <a
+                class='rounded-full hover:bg-orange-600 bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'
+                href='https://github.com/Cerealadvs/Groupomania'>
+                GitHub
+              </a>
+            </div>
           </div>
         </div>
         <div class='group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30'>
@@ -147,11 +186,28 @@ function Cards() {
               <br />
               Stocker des données de manière sécurisée
             </p>
-            <a
-              class='rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'
-              href='https://github.com/Cerealadvs/Piiquante'>
-              GitHub
-            </a>
+            <div className='flex'>
+              <p className='rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'>
+                Angular
+              </p>
+              <p className='rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'>
+                Node.Js
+              </p>
+              <p className='rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'>
+                Express
+              </p>
+              <p className='rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'>
+                MongoDB
+              </p>
+              <p className='rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'>
+                API
+              </p>
+              <a
+                class='rounded-full hover:bg-orange-600 bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'
+                href='https://github.com/Cerealadvs/Piiquante'>
+                GitHub
+              </a>
+            </div>
           </div>
         </div>
         <div class='group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30'>
@@ -176,11 +232,25 @@ function Cards() {
               <br />
               Gérer des événements JavaScript
             </p>
-            <a
-              class='rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'
-              href='https://github.com/Cerealadvs/Kanap'>
-              GitHub
-            </a>
+            <div className='flex'>
+              <p className='rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'>
+                HTML5
+              </p>
+              <p className='rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'>
+                CSS3
+              </p>
+              <p className='rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'>
+                JavaScript
+              </p>
+              <p className='rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'>
+                API
+              </p>
+              <a
+                class='rounded-full hover:bg-orange-600 bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'
+                href='https://github.com/Cerealadvs/Kanap'>
+                GitHub
+              </a>
+            </div>
           </div>
         </div>
         <div class='group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30'>
@@ -205,11 +275,25 @@ function Cards() {
               <br />
               Écrire un code HTML et CSS maintenable
             </p>
-            <a
-              class='rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'
-              href='https://cerealadvs.github.io/LaPanthere/'>
-              GitHub
-            </a>
+            <div className='flex'>
+              <p className='rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'>
+                HTML5
+              </p>
+              <p className='rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'>
+                CSS3
+              </p>
+              <p className='rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'>
+                SASS
+              </p>
+              <p className='rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'>
+                SEO
+              </p>
+              <a
+                class='rounded-full hover:bg-orange-600 bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'
+                href='https://cerealadvs.github.io/LaPanthere/'>
+                GitHub
+              </a>
+            </div>
           </div>
         </div>
         <div class='group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30'>
@@ -236,11 +320,22 @@ function Cards() {
               <br />
               Mettre en place son environnement Front-End
             </p>
-            <a
-              class='rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'
-              href='https://cerealadvs.github.io/OhMyFood/index.html'>
-              GitHub
-            </a>
+            <div className='flex'>
+              <p className='rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'>
+                HTML5
+              </p>
+              <p className='rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'>
+                CSS3
+              </p>
+              <p className='rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'>
+                SASS
+              </p>
+              <a
+                class='rounded-full hover:bg-orange-600 bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'
+                href='https://cerealadvs.github.io/OhMyFood/index.html'>
+                GitHub
+              </a>
+            </div>
           </div>
         </div>
         <div class='group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30'>
@@ -261,11 +356,19 @@ function Cards() {
               <br />
               Implémenter une interface responsive
             </p>
-            <a
-              class='rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'
-              href='https://cerealadvs.github.io/Booki/'>
-              GitHub
-            </a>
+            <div className='flex'>
+              <p className='rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'>
+                HTML5
+              </p>
+              <p className='rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'>
+                CSS3
+              </p>
+              <a
+                class='rounded-full hover:bg-orange-600 bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'
+                href='https://cerealadvs.github.io/Booki/'>
+                GitHub
+              </a>
+            </div>
           </div>
         </div>
       </div>
