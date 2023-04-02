@@ -51,6 +51,7 @@ function Cards() {
             </div>
           </div>
         </div>
+
         <div class='group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30'>
           <div class=''>
             <img
@@ -87,6 +88,7 @@ function Cards() {
             </div>
           </div>
         </div>
+
         <div class='group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30'>
           <div class=''>
             <img
