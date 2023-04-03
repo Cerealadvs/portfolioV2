@@ -51,6 +51,7 @@ function Cards() {
             </div>
           </div>
         </div>
+        {/* TODO:modificationa à faire sur la taille de la police pour small screen */}
 
         <div class='group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30'>
           <div class=''>
