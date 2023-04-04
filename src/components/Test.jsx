@@ -62,6 +62,7 @@ const App = () => {
 
   return (
     <>
+      {/* TODO:Modifications a créer */}
       <button
         type='button'
         onClick={handleThemeSwitch}
