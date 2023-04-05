@@ -44,9 +44,9 @@ function Cards() {
                 JavaScript
               </p>
               <a
-                class='rounded-full hover:bg-orange-600 bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'
+                class='rounded-full border-solid border-2 border-orange-600 hover:bg-orange-600 bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'
                 href='https://cerealadvs.github.io/pokemon-card-match/'>
-                GitHub
+                Démo
               </a>
             </div>
           </div>
@@ -80,9 +80,10 @@ function Cards() {
                 JavaScript
               </p>
               <a
-                class='rounded-full hover:bg-orange-600 bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'
+                class='rounded-full  border-solid border-2 border-orange-600 hover:bg-orange-600 bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'
                 href='https://cerealadvs.github.io/snake/'>
-                GitHub
+                {/* https://github.com/Cerealadvs/snake */}
+                Code
               </a>
             </div>
           </div>
@@ -114,11 +115,11 @@ function Cards() {
               <p className='rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'>
                 Create React App
               </p>
-              <a
-                class='rounded-full hover:bg-orange-600 bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'
+              {/* <a
+                class='rounded-full border-solid border-2 border-orange-600 hover:bg-orange-600 bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'
                 href='https://github.com/Cerealadvs/portofolio'>
                 GitHub
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
@@ -159,9 +160,9 @@ function Cards() {
                 API
               </p>
               <a
-                class='rounded-full hover:bg-orange-600 bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'
+                class='rounded-full border-solid border-2 border-orange-600 hover:bg-orange-600 bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'
                 href='https://github.com/Cerealadvs/Groupomania'>
-                GitHub
+                Code
               </a>
             </div>
           </div>
@@ -203,9 +204,9 @@ function Cards() {
                 API
               </p>
               <a
-                class='rounded-full hover:bg-orange-600 bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'
+                class='rounded-full border-solid border-2 border-orange-600 hover:bg-orange-600 bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'
                 href='https://github.com/Cerealadvs/Piiquante'>
-                GitHub
+                Code
               </a>
             </div>
           </div>
@@ -246,9 +247,9 @@ function Cards() {
                 API
               </p>
               <a
-                class='rounded-full hover:bg-orange-600 bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'
+                class='rounded-full border-solid border-2 border-orange-600 hover:bg-orange-600 bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'
                 href='https://github.com/Cerealadvs/Kanap'>
-                GitHub
+                Code
               </a>
             </div>
           </div>
@@ -289,9 +290,9 @@ function Cards() {
                 SEO
               </p>
               <a
-                class='rounded-full hover:bg-orange-600 bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'
+                class='rounded-full border-solid border-2 border-orange-600 hover:bg-orange-600 bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'
                 href='https://cerealadvs.github.io/LaPanthere/'>
-                GitHub
+                Démo
               </a>
             </div>
           </div>
@@ -331,9 +332,9 @@ function Cards() {
                 SASS
               </p>
               <a
-                class='rounded-full hover:bg-orange-600 bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'
+                class='rounded-full border-solid border-2 border-orange-600 hover:bg-orange-600 bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'
                 href='https://cerealadvs.github.io/OhMyFood/index.html'>
-                GitHub
+                Démo
               </a>
             </div>
           </div>
@@ -364,9 +365,9 @@ function Cards() {
                 CSS3
               </p>
               <a
-                class='rounded-full hover:bg-orange-600 bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'
+                class='rounded-full border-solid border-2 border-orange-600 hover:bg-orange-600 bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'
                 href='https://cerealadvs.github.io/Booki/'>
-                GitHub
+                Démo
               </a>
             </div>
           </div>

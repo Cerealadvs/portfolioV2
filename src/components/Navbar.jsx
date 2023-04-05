@@ -51,16 +51,16 @@ function Nav() {
                     Contact
                   </Link> */}
                   <Link
-                    to='https://github.com/Cerealadvs'
-                    target='_blank'
-                    className=' text-gray-300 hover:bg-gray-700 hover:text-white text-xl  px-3 py-2 rounded-md'>
-                    GitHub
-                  </Link>
-                  <Link
                     to='https://fr.linkedin.com/in/cyril-delteil-5542426b'
                     target='_blank'
-                    className=' text-gray-300 hover:bg-gray-700 hover:text-white text-xl  px-3 py-2 rounded-md'>
+                    className=' text-gray-300 hover:bg-gray-700 hover:text-white text-xl px-3 py-2 rounded-md'>
                     LinkedIn
+                  </Link>
+                  <Link
+                    to='https://github.com/Cerealadvs'
+                    target='_blank'
+                    className=' text-gray-300 border-solid border-2 border-teal-500 hover:bg-gray-700 hover:text-white text-xl px-3 py-2 rounded-md'>
+                    GitHub
                   </Link>
                 </li>
               </ul>
@@ -151,16 +151,16 @@ function Nav() {
                   Contact
                 </Link>
                 <Link
-                  to='https://github.com/Cerealadvs'
-                  target='_blank'
-                  className='text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium'>
-                  GitHub
-                </Link>
-                <Link
                   to='https://fr.linkedin.com/in/cyril-delteil-5542426b'
                   target='_blank'
                   className='text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium'>
                   LinkedIn
+                </Link>
+                <Link
+                  to='https://github.com/Cerealadvs'
+                  target='_blank'
+                  className='text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium'>
+                  GitHub
                 </Link>
               </div>
             </div>

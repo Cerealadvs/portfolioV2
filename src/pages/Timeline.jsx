@@ -1,5 +1,6 @@
 import React from 'react'
 import TimelineItem from '../components/TimelineItem'
+import Footer from '../components/Footer'
 
 function Timeline() {
   return (
@@ -13,6 +14,7 @@ function Timeline() {
       <div className='flex flex-col md:flex-row justify-center mt-16'>
         <div className='w-full md:w-7/12'>
           <TimelineItem />
+          <Footer />
         </div>
       </div>
     </div>
