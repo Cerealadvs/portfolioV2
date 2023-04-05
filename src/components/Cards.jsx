@@ -25,7 +25,7 @@ function Cards() {
           <div class='absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70'></div>
           <div class='absolute inset-0 flex translate-y-[70%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0'>
             <h1 class='font-dmserif text-3xl font-bold text-white'>Pokémon Match Card</h1>
-            <p class='mb-3 text-start text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100'>
+            <p class='mb-3 text-start sm:text-sm md:text-lg lg:text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100'>
               Objectifs:
               <br />
               Petit jeu de mémory fait sur la base de pokémon et de cartes à trouver.
@@ -51,7 +51,6 @@ function Cards() {
             </div>
           </div>
         </div>
-        TODO:modifications a à faire sur la taille de la police pour small screen
         <div class='group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30'>
           <div class=''>
             <img
@@ -63,7 +62,7 @@ function Cards() {
           <div class='absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70'></div>
           <div class='absolute inset-0 flex translate-y-[65%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0'>
             <h1 class='font-dmserif text-3xl font-bold text-white'>Snake</h1>
-            <p class='mb-3 text-start text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100'>
+            <p class='mb-3 text-start sm:text-sm md:text-lg lg:text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100'>
               Objectifs:
               <br />
               Création d'un petit jeu snake,
@@ -99,7 +98,7 @@ function Cards() {
           <div class='absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70'></div>
           <div class='absolute inset-0 flex translate-y-[65%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0'>
             <h1 class='font-dmserif text-3xl font-bold text-white'>Portfolio V1</h1>
-            <p class='mb-3 text-start text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100'>
+            <p class='mb-3 text-start sm:text-sm md:text-lg lg:text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100'>
               Objectifs:
               <br />
               Réalisation de mon premier portfolio, gestin du thème sombre et clair seont les préférences
@@ -134,7 +133,7 @@ function Cards() {
           <div class='absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70'></div>
           <div class='absolute inset-0 flex translate-y-[80%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0'>
             <h1 class='font-dmserif text-3xl font-bold text-white'>Groupomania</h1>
-            <p class='mb-3 text-start text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100'>
+            <p class='mb-3 text-start sm:text-sm md:text-lg lg:text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100'>
               Objectifs:
               <br />
               Authentifier un utilisateur et maintenir sa session,
@@ -178,7 +177,7 @@ function Cards() {
           <div class='absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70'></div>
           <div class='absolute inset-0 flex translate-y-[80%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0'>
             <h1 class='font-dmserif text-3xl font-bold text-white'>Pííquante</h1>
-            <p class='mb-3 text-start text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100'>
+            <p class='mb-3 text-start sm:text-sm md:text-lg lg:text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100'>
               Objectifs:
               <br />
               Mettre en œuvre des opérations CRUD de manière sécurisée,
@@ -222,7 +221,7 @@ function Cards() {
           <div class='absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70'></div>
           <div class='absolute inset-0 flex translate-y-[75%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0'>
             <h1 class='font-dmserif text-3xl font-bold text-white'>Kanap</h1>
-            <p class='mb-3 text-start text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100'>
+            <p class='mb-3 text-start sm:text-sm md:text-lg lg:text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100'>
               Objectifs:
               <br />
               Créer un plan de test pour une application,
@@ -265,7 +264,7 @@ function Cards() {
           <div class='absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70'></div>
           <div class='absolute inset-0 flex translate-y-[80%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0'>
             <h1 class='font-dmserif text-3xl font-bold text-white'>La Panthère</h1>
-            <p class='mb-3 text-start text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100'>
+            <p class='mb-3 text-start sm:text-sm md:text-lg lg:text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100'>
               Objectifs:
               <br />
               Réaliser une recherche des bonnes pratiques en développement web,
@@ -308,7 +307,7 @@ function Cards() {
           <div class='absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70'></div>
           <div class='absolute inset-0 flex translate-y-[80%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0'>
             <h1 class='font-dmserif text-3xl font-bold text-white'>Oh my food</h1>
-            <p class='mb-3 text-start text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100'>
+            <p class='mb-3 text-start sm:text-sm md:text-lg lg:text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100'>
               Objectifs:
               <br />
               Mettre en œuvre des effets CSS graphiques avancés,
@@ -350,7 +349,7 @@ function Cards() {
           <div class='absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70'></div>
           <div class='absolute inset-0 flex translate-y-[65%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0'>
             <h1 class='font-dmserif text-3xl font-bold text-white'>Booki</h1>
-            <p class='mb-3 text-start text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100'>
+            <p class='mb-3 text-start sm:text-sm md:text-lg lg:text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100'>
               Objectifs:
               <br />
               Intégrer du contenu conformément à une maquette,

@@ -225,7 +225,7 @@ function CardsTest() {
           <div class='absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70'></div>
           <div class='absolute inset-0 flex translate-y-[80%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0'>
             <h1 class='font-dmserif text-3xl font-bold text-white'>Oh my food</h1>
-            <p class='mb-3 text-start text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100'>
+            <p class='mb-3 text-start sm:text-sm md:text-lg lg:text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100 '>
               Objectifs:
               <br />
               Mettre en œuvre des effets CSS graphiques avancés,
