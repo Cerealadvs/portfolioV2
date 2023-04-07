@@ -96,7 +96,7 @@ function AllCards() {
             <p class='mb-3 text-start text-md italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100'>
               Objectifs:
               <br />
-              Réalisation de mon premier portfolio, gestin du thème sombre et clair seont les préférences
+              Réalisation de mon premier portfolio, gestion du thème sombre et clair seont les préférences
               utlisateur.
             </p>
             <div className='flex'>
