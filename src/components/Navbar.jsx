@@ -145,11 +145,12 @@ function Nav() {
                   CV
                 </Link>
 
-                <Link
-                  to='/contact'
+                <button
+                  onClick={() => (window.location = 'mailto:cyrildelteil@gmail.com')}
                   className='text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium'>
                   Contact
-                </Link>
+                </button>
+
                 <Link
                   to='https://fr.linkedin.com/in/cyril-delteil-5542426b'
                   target='_blank'
