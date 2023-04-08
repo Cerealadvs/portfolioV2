@@ -8,7 +8,7 @@ function IntroProjets() {
         id='Project'>
         Mes Projets
       </h1>
-      <p className='text-md py-5 leading-8 text-slate-800 dark:text-slate-500 md:text-xl max-w-xl mx-auto'>
+      <p className='text-md py-5 leading-8 text-slate-800 dark:text-slate-500 md:text-xl max-w-xl mx-auto p-2'>
         Voici les différents projets que j'ai réalisés dans le cadre de ma formation chez{' '}
         <span className='text-teal-500'>
           {' '}
