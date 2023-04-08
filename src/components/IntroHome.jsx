@@ -19,10 +19,10 @@ const Intro = () => {
         />
       </h2>
 
-      <p className='text-md py-5 leading-8 text-slate-800 dark:text-slate-500 md:text-xl max-w-xl mx-auto'>
+      <p className='text-md py-5 leading-8 text-slate-800 dark:text-slate-500 md:text-xl max-w-xl mx-auto p-2'>
         Actuellement à la recherche d'une expérience professionnelle dans le développement web.
       </p>
-      <p className='text-md leading-8 text-gray-800 dark:text-slate-400 my-5 max-w-xl md:text-xl'>
+      <p className='text-md leading-8 text-gray-800 dark:text-slate-400 my-5 max-w-xl md:text-xl p-4'>
         Mes amis me décrivent comme un <span className='text-teal-500'>couteau suisse </span> ; je m'adapte à
         toutes les situations. Ce trait de personnalité m'a toujours permis de travailler dans les domaines
         qui m’intéressaient. Très curieux, j'aime explorer de nouveaux domaines de connaissances et c'est tout
@@ -31,7 +31,7 @@ const Intro = () => {
         <span className='text-teal-500'> expérience</span> dans le développement.
       </p>
 
-      <img src={knife} alt='Logo' />
+      <img src={knife} alt='Logo' className=' p-4' />
       {/* className='sm:w-10/12 TODO:'taille en petit trop proche des bords */}
 
       {/* TODO: idée: créer des liens sur les différents outils (ouverture de menu en liens)f */}
