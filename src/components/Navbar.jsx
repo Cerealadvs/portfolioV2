@@ -122,24 +122,28 @@ function Nav() {
             <div className='md:hidden' id='mobile-menu'>
               <div ref={ref} className='px-2 pt-2 pb-3 space-y-1 sm:px-3'>
                 <Link
+                  onClick={() => setIsOpen(!isOpen)}
                   to='/projects'
                   className='text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium'>
                   Projets
                 </Link>
 
                 <Link
+                  onClick={() => setIsOpen(!isOpen)}
                   to='/skills'
                   className='text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium'>
                   Compétences
                 </Link>
 
                 <Link
+                  onClick={() => setIsOpen(!isOpen)}
                   to='/timeline'
                   className='text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium'>
                   Étapes
                 </Link>
 
                 <Link
+                  onClick={() => setIsOpen(!isOpen)}
                   to='/cv'
                   className='text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium'>
                   CV
