@@ -14,18 +14,18 @@ function AllCards() {
   return (
     <div className='flex flex-col md:flex-row items-center justify-center'>
       <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-3'>
-        <div class='group relative items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30'>
+        <div className='group relative items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30'>
           <div>
             <img
-              class='h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125'
+              className='h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125'
               src={pokemon}
               alt='pokemon'
             />
           </div>
-          <div class='absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70'></div>
-          <div class='absolute inset-0 flex translate-y-[68%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0'>
-            <h1 class='font-dmserif text-3xl font-bold text-white'>Pokémon Match Card</h1>
-            <p class='mb-3 text-start text-md italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100'>
+          <div className='absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70'></div>
+          <div className='absolute inset-0 flex translate-y-[68%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0'>
+            <h1 className='font-dmserif text-3xl font-bold text-white'>Pokémon Match Card</h1>
+            <p className='mb-3 text-start text-md italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100'>
               Objectifs:
               <br />
               Petit jeu de mémory fait sur la base de pokémon et de cartes à trouver.
@@ -44,25 +44,25 @@ function AllCards() {
                 JavaScript
               </p>
               <a
-                class='rounded-full border-solid border-2 border-orange-600 hover:bg-orange-600 bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'
+                className='rounded-full border-solid border-2 border-orange-600 hover:bg-orange-600 bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'
                 href='https://cerealadvs.github.io/pokemon-card-match/'>
                 Démo
               </a>
             </div>
           </div>
         </div>
-        <div class='group relative items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30'>
-          <div class=''>
+        <div className='group relative items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30'>
+          <div className=''>
             <img
-              class='h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125'
+              className='h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125'
               src={snake}
               alt='snake'
             />
           </div>
-          <div class='absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70'></div>
-          <div class='absolute inset-0 flex translate-y-[64%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0'>
-            <h1 class='font-dmserif text-3xl font-bold text-white'>Snake</h1>
-            <p class='mb-3 text-start text-md italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100'>
+          <div className='absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70'></div>
+          <div className='absolute inset-0 flex translate-y-[64%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0'>
+            <h1 className='font-dmserif text-3xl font-bold text-white'>Snake</h1>
+            <p className='mb-3 text-start text-md italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100'>
               Objectifs:
               <br />
               Création d'un petit jeu snake,
@@ -80,7 +80,7 @@ function AllCards() {
                 JavaScript
               </p>
               <a
-                class='rounded-full  border-solid border-2 border-orange-600 hover:bg-orange-600 bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'
+                className='rounded-full  border-solid border-2 border-orange-600 hover:bg-orange-600 bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'
                 href='https://cerealadvs.github.io/snake/'>
                 {/* https://github.com/Cerealadvs/snake */}
                 Code
@@ -88,18 +88,18 @@ function AllCards() {
             </div>
           </div>
         </div>
-        <div class='group relative items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30'>
-          <div class=''>
+        <div className='group relative items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30'>
+          <div className=''>
             <img
-              class='h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125'
+              className='h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125'
               src={portfolioV1}
               alt='portfolioV1'
             />
           </div>
-          <div class='absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70'></div>
-          <div class='absolute inset-0 flex translate-y-[64%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0'>
-            <h1 class='font-dmserif text-3xl font-bold text-white'>Portfolio V1</h1>
-            <p class='mb-3 text-start text-md italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100'>
+          <div className='absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70'></div>
+          <div className='absolute inset-0 flex translate-y-[64%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0'>
+            <h1 className='font-dmserif text-3xl font-bold text-white'>Portfolio V1</h1>
+            <p className='mb-3 text-start text-md italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100'>
               Objectifs:
               <br />
               Réalisation de mon premier portfolio, gestin du thème sombre et clair seont les préférences
@@ -116,25 +116,25 @@ function AllCards() {
                 Create React App
               </p>
               {/* <a
-                class='rounded-full border-solid border-2 border-orange-600 hover:bg-orange-600 bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'
+                className='rounded-full border-solid border-2 border-orange-600 hover:bg-orange-600 bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'
                 href='https://github.com/Cerealadvs/portofolio'>
                 GitHub
               </a> */}
             </div>
           </div>
         </div>
-        <div class='group relative items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30'>
-          <div class=''>
+        <div className='group relative items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30'>
+          <div className=''>
             <img
-              class='h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125'
+              className='h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125'
               src={groupomania}
               alt='groupomania'
             />
           </div>
-          <div class='absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70'></div>
-          <div class='absolute inset-0 flex translate-y-[76%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0'>
-            <h1 class='font-dmserif text-3xl font-bold text-white'>Groupomania</h1>
-            <p class='mb-3 text-start text-md italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100'>
+          <div className='absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70'></div>
+          <div className='absolute inset-0 flex translate-y-[76%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0'>
+            <h1 className='font-dmserif text-3xl font-bold text-white'>Groupomania</h1>
+            <p className='mb-3 text-start text-md italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100'>
               Objectifs:
               <br />
               Authentifier un utilisateur et maintenir sa session,
@@ -160,25 +160,25 @@ function AllCards() {
                 API
               </p>
               <a
-                class='rounded-full border-solid border-2 border-orange-600 hover:bg-orange-600 bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'
+                className='rounded-full border-solid border-2 border-orange-600 hover:bg-orange-600 bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'
                 href='https://github.com/Cerealadvs/Groupomania'>
                 Code
               </a>
             </div>
           </div>
         </div>
-        <div class='group relative items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30'>
-          <div class=''>
+        <div className='group relative items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30'>
+          <div className=''>
             <img
-              class='h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125'
+              className='h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125'
               src={hottakes}
               alt='pííquante'
             />
           </div>
-          <div class='absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70'></div>
-          <div class='absolute inset-0 flex translate-y-[72%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0'>
-            <h1 class='font-dmserif text-3xl font-bold text-white'>Pííquante</h1>
-            <p class='mb-3 text-start text-md italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100'>
+          <div className='absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70'></div>
+          <div className='absolute inset-0 flex translate-y-[72%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0'>
+            <h1 className='font-dmserif text-3xl font-bold text-white'>Pííquante</h1>
+            <p className='mb-3 text-start text-md italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100'>
               Objectifs:
               <br />
               Mettre en œuvre des opérations CRUD de manière sécurisée,
@@ -204,25 +204,25 @@ function AllCards() {
                 API
               </p>
               <a
-                class='rounded-full border-solid border-2 border-orange-600 hover:bg-orange-600 bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'
+                className='rounded-full border-solid border-2 border-orange-600 hover:bg-orange-600 bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'
                 href='https://github.com/Cerealadvs/Piiquante'>
                 Code
               </a>
             </div>
           </div>
         </div>
-        <div class='group relative items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30'>
-          <div class=''>
+        <div className='group relative items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30'>
+          <div className=''>
             <img
-              class='h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125'
+              className='h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125'
               src={kanap}
               alt='kanap'
             />
           </div>
-          <div class='absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70'></div>
-          <div class='absolute inset-0 flex translate-y-[72%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0'>
-            <h1 class='font-dmserif text-3xl font-bold text-white'>Kanap</h1>
-            <p class='mb-3 text-start text-md italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100'>
+          <div className='absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70'></div>
+          <div className='absolute inset-0 flex translate-y-[72%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0'>
+            <h1 className='font-dmserif text-3xl font-bold text-white'>Kanap</h1>
+            <p className='mb-3 text-start text-md italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100'>
               Objectifs:
               <br />
               Créer un plan de test pour une application,
@@ -247,25 +247,25 @@ function AllCards() {
                 API
               </p>
               <a
-                class='rounded-full border-solid border-2 border-orange-600 hover:bg-orange-600 bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'
+                className='rounded-full border-solid border-2 border-orange-600 hover:bg-orange-600 bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'
                 href='https://github.com/Cerealadvs/Kanap'>
                 Code
               </a>
             </div>
           </div>
         </div>
-        <div class='group relative items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30'>
-          <div class=''>
+        <div className='group relative items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30'>
+          <div className=''>
             <img
-              class='h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125'
+              className='h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125'
               src={lapanthere}
               alt='la panthere'
             />
           </div>
-          <div class='absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70'></div>
-          <div class='absolute inset-0 flex translate-y-[76%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0'>
-            <h1 class='font-dmserif text-3xl font-bold text-white'>La Panthère</h1>
-            <p class='mb-3 text-start text-md italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100'>
+          <div className='absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70'></div>
+          <div className='absolute inset-0 flex translate-y-[76%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0'>
+            <h1 className='font-dmserif text-3xl font-bold text-white'>La Panthère</h1>
+            <p className='mb-3 text-start text-md italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100'>
               Objectifs:
               <br />
               Réaliser une recherche des bonnes pratiques en développement web,
@@ -290,25 +290,25 @@ function AllCards() {
                 SEO
               </p>
               <a
-                class='rounded-full border-solid border-2 border-orange-600 hover:bg-orange-600 bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'
+                className='rounded-full border-solid border-2 border-orange-600 hover:bg-orange-600 bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'
                 href='https://cerealadvs.github.io/LaPanthere/'>
                 Démo
               </a>
             </div>
           </div>
         </div>
-        <div class='group relative items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30'>
-          <div class=''>
+        <div className='group relative items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30'>
+          <div className=''>
             <img
-              class='h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125'
+              className='h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125'
               src={ohmyfood}
               alt='oh my food'
             />
           </div>
-          <div class='absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70'></div>
-          <div class='absolute inset-0 flex translate-y-[76%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0'>
-            <h1 class='font-dmserif text-3xl font-bold text-white'>Oh my food</h1>
-            <p class='mb-3 text-start text-md italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100'>
+          <div className='absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70'></div>
+          <div className='absolute inset-0 flex translate-y-[76%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0'>
+            <h1 className='font-dmserif text-3xl font-bold text-white'>Oh my food</h1>
+            <p className='mb-3 text-start text-md italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100'>
               Objectifs:
               <br />
               Mettre en œuvre des effets CSS graphiques avancés,
@@ -332,25 +332,25 @@ function AllCards() {
                 SASS
               </p>
               <a
-                class='rounded-full border-solid border-2 border-orange-600 hover:bg-orange-600 bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'
+                className='rounded-full border-solid border-2 border-orange-600 hover:bg-orange-600 bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'
                 href='https://cerealadvs.github.io/OhMyFood/index.html'>
                 Démo
               </a>
             </div>
           </div>
         </div>
-        <div class='group relative items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30'>
-          <div class=''>
+        <div className='group relative items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30'>
+          <div className=''>
             <img
-              class='h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125'
+              className='h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125'
               src={booki}
               alt='booki'
             />
           </div>
-          <div class='absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70'></div>
-          <div class='absolute inset-0 flex translate-y-[64%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0'>
-            <h1 class='font-dmserif text-3xl font-bold text-white'>Booki</h1>
-            <p class='mb-3 text-start text-md italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100'>
+          <div className='absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70'></div>
+          <div className='absolute inset-0 flex translate-y-[64%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0'>
+            <h1 className='font-dmserif text-3xl font-bold text-white'>Booki</h1>
+            <p className='mb-3 text-start text-md italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100'>
               Objectifs:
               <br />
               Intégrer du contenu conformément à une maquette,
@@ -365,7 +365,7 @@ function AllCards() {
                 CSS3
               </p>
               <a
-                class='rounded-full border-solid border-2 border-orange-600 hover:bg-orange-600 bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'
+                className='rounded-full border-solid border-2 border-orange-600 hover:bg-orange-600 bg-neutral-900 py-2 px-3.5 font-com text-sm text-white shadow shadow-black/60'
                 href='https://cerealadvs.github.io/Booki/'>
                 Démo
               </a>
