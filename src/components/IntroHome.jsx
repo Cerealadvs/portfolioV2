@@ -8,7 +8,7 @@ const Intro = () => {
       <h1 className='sm:text-5xl text-4xl md:text-7xl mb-1 md:mb-3 text-teal-500 dark:text-white'>
         Cyril Delteil
       </h1>
-      <h2 className='flex sm:text-3xl text-2xl pt-4 md:text-4xl mb-3 text-slate-600'>
+      <h2 className='flex sm:text-2xl pt-4 md:text-4xl mb-3 text-slate-600'>
         Je suis un
         <TypeAnimation
           sequence={['développeur', 2000, 'explorateur du web', 2000, 'passionné de technologie', 2000]}
