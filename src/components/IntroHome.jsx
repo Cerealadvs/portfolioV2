@@ -34,7 +34,8 @@ const Intro = () => {
       <img src={knife} alt='Logo' className=' p-4' />
       {/* className='sm:w-10/12 TODO:'taille en petit trop proche des bords */}
 
-      {/* TODO: idée: créer des liens sur les différents outils (ouverture de menu en liens)f */}
+      {/* TODO: idée: créer des liens sur les différents outils (ouverture de menu en liens)
+      ou couteau en 3D avec three.js */}
     </div>
   )
 }
