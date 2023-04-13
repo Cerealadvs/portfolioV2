@@ -1,7 +1,7 @@
 import React from 'react'
 
-import AllCards from './AllCards'
-import CardsTest from './CardsTest'
+// import AllCards from './AllCards'
+// import CardsTest from './CardsTest'
 
 import ProjetsOC from './ProjetsOC'
 import CardsOC from './CardsOC'
