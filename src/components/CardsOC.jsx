@@ -7,6 +7,8 @@ import kanap from '/assets/kanap.jpg'
 import hottakes from '/assets/hottakes.jpg'
 import groupomania from '/assets/groupomania.jpg'
 
+// creer un affichage avec scroller pour les différents projets.
+
 function CardsOC() {
   return (
     <div className='flex flex-col md:flex-row items-center justify-center'>
